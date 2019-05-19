@@ -21,11 +21,6 @@ class Song
   def self.genres 
     @@genres.uniq 
   end 
-  
-  def self.genre_count 
-    genre_count = {}
-    @@genres.each do |g|
-      if g.key?
         
   def self.genre_count 
 	  genre_count = {}
